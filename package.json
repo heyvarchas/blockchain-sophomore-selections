@@ -1,0 +1,21 @@
+{
+  "name": "blockchain-sophomore-selections",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Blockchain Sophomore Selections Monorepo",
+  "workspaces": [
+    "task2-certifyme"
+  ],
+  "scripts": {
+    "compile": "npm run compile --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "test:certify": "npm run test --workspace=task2-certifyme",
+    "deploy:certify": "npm run deploy --workspace=task2-certifyme",
+    "demo:certify": "npm run demo --workspace=task2-certifyme"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "hardhat": "^2.22.18",
+    "viem": "^2.23.5"
+  }
+}
