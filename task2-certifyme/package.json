@@ -1,0 +1,27 @@
+{
+  "name": "task2-certifyme",
+  "version": "1.0.0",
+  "description": "Task 2: CertifyMe - Decentralized Credential Verification System",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy/deployCertifyMe.js",
+    "demo": "hardhat run scripts/demo/demoCertifyMe.js"
+  },
+  "keywords": [
+    "solidity",
+    "hardhat",
+    "viem",
+    "credentials",
+    "certificates",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
+    "hardhat": "^2.22.18",
+    "viem": "^2.23.5"
+  }
+}
