@@ -1,0 +1,98 @@
+# ================================
+# Node.js
+# ================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ================================
+# Environment / Secrets
+# ================================
+.env
+.env.*
+!.env.example
+
+# ================================
+# Hardhat
+# ================================
+cache/
+artifacts/
+coverage/
+typechain/
+typechain-types/
+ignition/deployments/
+
+# ================================
+# Foundry
+# ================================
+out/
+broadcast/
+cache/
+
+# ================================
+# Solidity / Ethereum
+# ================================
+*.secret
+*.key
+
+# ================================
+# Python (if used for scripts/tests)
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.mypy_cache/
+
+# ================================
+# IDEs / Editors
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ================================
+# OS
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Logs
+# ================================
+*.log
+
+# ================================
+# Coverage
+# ================================
+coverage/
+coverage.json
+
+# ================================
+# Temporary / Generated files
+# ================================
+tmp/
+temp/
+*.tmp
+
+# ================================
+# Build / Deployment artifacts
+# ================================
+dist/
+build/
+
+# ================================
+# Local blockchain data
+# ================================
+*.db
+*.sqlite
+*.sqlite3
